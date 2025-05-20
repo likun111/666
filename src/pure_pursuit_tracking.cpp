@@ -42,7 +42,7 @@ std::vector<TrajPoint> readCsvTraj(const std::string &filename) {
         std::string field;
         while (getline(sin, field, ',')) {
             fields.push_back(field);
-        }
+        } 
         if (fields.size() < 12) continue;  // 必须有足够字段，按你CSV顺序
 
         TrajPoint p;
