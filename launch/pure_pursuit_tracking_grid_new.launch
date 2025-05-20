@@ -1,0 +1,5 @@
+<launch>
+  <!-- 运行你的控制节点 -->
+  <node pkg="robot_control_mt100" type="pure_pursuit_tracking_grid_new" name="pure_pursuit_tracking_grid_new" output="screen"/>
+  
+</launch>

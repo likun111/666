@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robot_control_mt100" type="control_socketcan_new" name="control_socketcan_new" output="screen"/>
+</launch>

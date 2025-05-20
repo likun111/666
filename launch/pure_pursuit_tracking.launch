@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robot_control_mt100" type="pure_pursuit_tracking" name="pure_pursuit_tracking" output="screen"/>
+</launch>
